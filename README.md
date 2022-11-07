@@ -62,7 +62,7 @@ such as use_case -> repository, by using a fake repository, and viewModel -> use
 In this short presentation I used Google to sign In. To bypass the AuthScreen, a user must create an account with valid data.
 Each input error is signalled to the user in case that happens.
 
-![app_walkthrough](Videos/Recording#2.mp4) 
+![app_walkthrough](https://github.com/techConsul97/techConsul97-LBG---coding-challenge/blob/main/Videos/ezgif.com-gif-maker.gif)
 
 
     
