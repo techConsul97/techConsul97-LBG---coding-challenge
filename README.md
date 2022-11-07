@@ -17,7 +17,7 @@ Kotlin
 
 ## 2.Architecture
 
-The applicaton is constructed with on an MVVM Architecture that implements *clean architecture*.
+The application is constructed with on an MVVM Architecture that implements *clean architecture*.
 
 ## 3. Technologies used
 
@@ -25,6 +25,7 @@ Jetpack Compose, Firebase, Retrofit, OkHttp, Hilt, FLows, Coroutines, Mockito, J
 
 ## 4. Project Structure
 The project has two main features, "feature_authentication" and "feature_pokedex"
+![img.png](img.png)
 
 Authentication, as the name suggests, contains the logic, as well as the UI, for the authentication process. This is done via Firebase.
 It is being contructed accordingly to "clean architecture" guidelines. 

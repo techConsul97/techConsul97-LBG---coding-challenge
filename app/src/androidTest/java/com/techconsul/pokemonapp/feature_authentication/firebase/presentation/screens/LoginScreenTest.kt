@@ -1,4 +1,4 @@
-package com.techconsul.pokemonapp.feature_authentication.firebase.screens
+package com.techconsul.pokemonapp.feature_authentication.firebase.presentation.screens
 
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.getValue
@@ -10,10 +10,12 @@ import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.techconsul.pokemonapp.feature_authentication.firebase.screens.util.InputType
+import com.techconsul.pokemonapp.feature_authentication.firebase.presentation.screens.LoginScreen
+import com.techconsul.pokemonapp.feature_authentication.firebase.presentation.screens.RegisterScreen
+import com.techconsul.pokemonapp.feature_authentication.firebase.presentation.screens.util.InputType
 import com.techconsul.pokemonapp.feature_pokedex.MainActivity
 import com.techconsul.pokemonapp.feature_pokedex.presentation.pokemonlist.PokemonListScreen
-import com.techconsul.pokemonapp.feature_pokedex.ui.theme.JetpackComposePokedexTheme
+import com.techconsul.pokemonapp.feature_pokedex.presentation.theme.JetpackComposePokedexTheme
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import org.junit.Before

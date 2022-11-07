@@ -1,10 +1,11 @@
-package com.techconsul.pokemonapp.feature_authentication.firebase
+package com.techconsul.pokemonapp.feature_authentication.firebase.presentation
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.google.android.gms.auth.api.Auth
 import com.techconsul.pokemonapp.feature_authentication.firebase.data.model.AuthUser
 import com.techconsul.pokemonapp.feature_authentication.firebase.data.repository.FakeAuthRepository
 import com.techconsul.pokemonapp.feature_authentication.firebase.domain.use_case.AuthorizeUserUseCase
+import com.techconsul.pokemonapp.feature_authentication.firebase.presentation.AuthUserState
+import com.techconsul.pokemonapp.feature_authentication.firebase.presentation.FirebaseAuthViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.UnconfinedTestDispatcher

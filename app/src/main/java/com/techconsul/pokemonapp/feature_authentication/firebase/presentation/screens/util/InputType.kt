@@ -1,4 +1,4 @@
-package com.techconsul.pokemonapp.feature_authentication.firebase.screens.util
+package com.techconsul.pokemonapp.feature_authentication.firebase.presentation.screens.util
 
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons

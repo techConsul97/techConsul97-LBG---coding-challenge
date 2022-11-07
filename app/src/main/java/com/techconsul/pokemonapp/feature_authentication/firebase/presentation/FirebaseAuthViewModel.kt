@@ -1,4 +1,4 @@
-package com.techconsul.pokemonapp.feature_authentication.firebase
+package com.techconsul.pokemonapp.feature_authentication.firebase.presentation
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf

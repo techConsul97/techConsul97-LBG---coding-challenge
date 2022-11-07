@@ -1,4 +1,4 @@
-package com.techconsul.pokemonapp.feature_pokedex.ui.theme
+package com.techconsul.pokemonapp.feature_pokedex.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

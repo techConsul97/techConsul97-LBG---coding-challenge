@@ -1,4 +1,4 @@
-package com.techconsul.pokemonapp.feature_authentication.firebase.screens.util
+package com.techconsul.pokemonapp.feature_authentication.firebase.presentation.screens.util
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.text.KeyboardActions
@@ -12,7 +12,7 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
-import com.techconsul.pokemonapp.feature_pokedex.ui.theme.Shapes
+import com.techconsul.pokemonapp.feature_pokedex.presentation.theme.Shapes
 
 @Composable
 fun TextInput(

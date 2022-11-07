@@ -1,4 +1,4 @@
-package com.techconsul.pokemonapp.feature_authentication.firebase.screens.util
+package com.techconsul.pokemonapp.feature_authentication.firebase.presentation.screens.util
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image

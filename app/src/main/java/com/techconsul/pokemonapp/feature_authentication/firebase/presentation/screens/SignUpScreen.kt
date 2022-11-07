@@ -1,16 +1,12 @@
-package com.techconsul.pokemonapp.feature_authentication.firebase.screens
+package com.techconsul.pokemonapp.feature_authentication.firebase.presentation.screens
 
 import android.widget.Toast
 import androidx.compose.animation.*
-import androidx.compose.animation.core.CubicBezierEasing
-import androidx.compose.animation.core.FiniteAnimationSpec
-import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.material.*
-import androidx.compose.material.MaterialTheme.colors
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.ExperimentalComposeUiApi
@@ -28,14 +24,11 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.techconsul.pokemonapp.R
-import com.techconsul.pokemonapp.feature_authentication.firebase.FirebaseAuthViewModel
+import com.techconsul.pokemonapp.feature_authentication.firebase.presentation.FirebaseAuthViewModel
 import com.techconsul.pokemonapp.feature_authentication.firebase.data.model.AuthUser
-import com.techconsul.pokemonapp.feature_authentication.firebase.emailValidator
-import com.techconsul.pokemonapp.feature_authentication.firebase.passwordValidator
-import com.techconsul.pokemonapp.feature_authentication.firebase.screens.util.InputType
-import com.techconsul.pokemonapp.feature_authentication.firebase.screens.util.TextInput
-import com.techconsul.pokemonapp.feature_pokedex.ui.theme.Shapes
-import kotlinx.coroutines.delay
+import com.techconsul.pokemonapp.feature_authentication.firebase.presentation.screens.util.InputType
+import com.techconsul.pokemonapp.feature_authentication.firebase.presentation.screens.util.TextInput
+import com.techconsul.pokemonapp.feature_pokedex.presentation.theme.Shapes
 
 
 @OptIn(ExperimentalComposeUiApi::class)

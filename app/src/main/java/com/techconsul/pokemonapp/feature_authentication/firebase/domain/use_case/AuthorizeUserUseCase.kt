@@ -1,9 +1,9 @@
 package com.techconsul.pokemonapp.feature_authentication.firebase.domain.use_case
 
+import com.techconsul.pokemonapp.feature_authentication.firebase.util.InputValidator.emailValidator
+import com.techconsul.pokemonapp.feature_authentication.firebase.util.InputValidator.passwordValidator
 import com.techconsul.pokemonapp.feature_authentication.firebase.data.model.AuthUser
 import com.techconsul.pokemonapp.feature_authentication.firebase.domain.repository.AuthRepository
-import com.techconsul.pokemonapp.feature_authentication.firebase.emailValidator
-import com.techconsul.pokemonapp.feature_authentication.firebase.passwordValidator
 import com.techconsul.pokemonapp.feature_pokedex.util.Resource
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.flow.flow

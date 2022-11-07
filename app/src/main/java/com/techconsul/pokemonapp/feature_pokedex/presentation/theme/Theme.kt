@@ -1,4 +1,4 @@
-package com.techconsul.pokemonapp.feature_pokedex.ui.theme
+package com.techconsul.pokemonapp.feature_pokedex.presentation.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

@@ -11,7 +11,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.techconsul.pokemonapp.feature_pokedex.MainActivity
-import com.techconsul.pokemonapp.feature_pokedex.ui.theme.JetpackComposePokedexTheme
+import com.techconsul.pokemonapp.feature_pokedex.presentation.theme.JetpackComposePokedexTheme
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import org.junit.Before

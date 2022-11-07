@@ -30,7 +30,7 @@ import coil.compose.SubcomposeAsyncImage
 import coil.request.ImageRequest
 import com.techconsul.pokemonapp.R
 import com.techconsul.pokemonapp.feature_pokedex.data.models.PokedexListEntry
-import com.techconsul.pokemonapp.feature_pokedex.ui.theme.RobotoCondensed
+import com.techconsul.pokemonapp.feature_pokedex.presentation.theme.RobotoCondensed
 
 @Composable
 fun PokemonListScreen(
