@@ -1,0 +1,10 @@
+package com.techconsul.pokemonapp.feature_pokedex.data.remote.responses
+
+
+import com.google.gson.annotations.SerializedName
+
+data class GenerationI(
+    @SerializedName("red-blue")
+    val redBlue: RedBlue,
+    val yellow: Yellow
+)
